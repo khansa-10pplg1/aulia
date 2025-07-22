@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Website Sederhana</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding-top: 50px;
+     background-color:#767eeb ;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    div{
+        background-color: #fff1e1;
+    }
+
+    
+    .container {
+  display: grid;
+  place-items: center;
+  height: 300px; /* Contoh tinggi container */
+}
+
+.item {
+  /* Gaya untuk elemen div yang ingin dipusatkan */
+  width: 100px;
+  height: 100px;
+}
+
+script{
+    font-family: sans-serif;
+}
+
+button{
+    border-radius: 30px;
+    height: 60px;
+    width: 200px;
+}
+
+img{
+    align-items: center;
+}
+
+  </style>
+</head>
+<body>
+  <h1>Halo, Selamat Datang!</h1>
+  <hr width="1600px">
+
+  <script>
+     var nama = prompt("siapa nama kamu?","");
+        document.write("<P>hello " + nama +"<P>");
+    
+  </script>
+   <div class="container">
+     <div class="items">
+        <script>
+        // membuat variabel 
+        var name = " SMK 2 pekalongan";
+        var visitorCount = 50322;
+        var isActive = true;
+        var url = "https://smk2pekalogan.sch.id";
+        //menampilkan variabel ke jendela dialog(alert)
+        alert("selamat datang di" + name );
+        //menampilkan variabel ke html
+        document.write("Nama Situs: " + name + "<br>");
+        document.write("Jumlah Pengunjung: " + visitorCount + "<br>");
+        document.write("status Aktif: " + isActive + "<br>");
+        document.write("Alamat url: " + url + "<br>");
+    </script>
+     </div>
+   </div>
+
+   <img src="buku.jpg" alt="">
+
+   <button>
+    <p>
+        informasi layanan
+    </p>
+   </button>
+
+  
+</body>
+</html>
